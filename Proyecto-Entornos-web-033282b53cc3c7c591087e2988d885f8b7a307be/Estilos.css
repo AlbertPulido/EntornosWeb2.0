@@ -102,10 +102,6 @@ color: #fff;
 font-weight: 600;
 }
 
-em, i {
-font-style: italic;
-}
-
 p {
 margin: 0 0 2em 0;
 }
@@ -152,17 +148,6 @@ line-height: 1.75em;
 
 }
 
-
-hr {
-border: 0;
-border-bottom: solid 2px #fff;
-margin: 3em 0;
-}
-
-hr.hover {
-    margin: 4.5em 0;
-}
-
 blockquote {
 border-left: solid 4px #fff;
 font-style: italic;
@@ -170,84 +155,29 @@ margin: 0 0 2em 0;
 padding: 0.5em 0 0.5em 2em;
 }
 
-pre {
--webkit-overflow-scrolling: touch;
-font-family: "Courier New", monospace;
-font-size: 0.9em;
-margin: 0 0 2em 0;
-}
-
-pre code {
-    display: block;
-    line-height: 1.75em;
-    padding: 1em 1.5em;
-    overflow-x: auto;
-}
-
 header h3 + p {
-font-size: 1.1em;
+font-size: 9.1em;
 }
 
 header.hover {
 margin: 0 0 3.5em 0;
 }
 
-header.hover h2, header.hover h3, header.hover h4, header.hover h5, header.hover h6 {
+header.hover h2, header.hover h3 {
     border-bottom: solid 2px #fff;
     display: inline-block;
     padding-bottom: 1em;
     position: relative;
 }
 
-    header.hover h2:after, header.hover h3:after, header.hover h4:after, header.hover h5:after, header.hover h6:after {
+    header.hover h2:after, header.hover h3:after{
         content: '';
         display: block;
-        height: 1px;
+        height: 2px;
     }
 
 header.hover p {
     color: #fff;
     top: 0;
-}
-
-@media screen and (max-width: 736px) {
-
-    header.hover {
-        margin: 0 0 2em 0;
-    }
-
-}
-
-@media screen and (max-width: 980px) {
-
-header br {
-    display: none;
-}
-
-}
-
-/* Form */
-
-form {
-margin: 0 0 2em 0;
-}
-
-label {
-color: #fff;
-display: block;
-font-size: 1.9em;
-font-weight: 600;
-margin: 0 0 1em 0;
-}
-
-.spotlight {
-    -moz-align-items: center;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
 }
 
