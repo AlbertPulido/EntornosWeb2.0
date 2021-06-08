@@ -47,7 +47,7 @@ img{
     background-color: #e62b9100;
     justify-content: space-between;
 }
-.CuadroSol5 {
+.CuadroSol5 p{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14.5px;
@@ -89,12 +89,107 @@ img{
 }
 
 body, input, select, textarea {
-    color: rgb(243, 237, 237);
+    color: #fff;
     font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 15pt;
     font-weight: 400;
     letter-spacing: 0.075em;
     line-height: 1.65em;
+}
+
+strong, b {
+color: #fff;
+font-weight: 600;
+}
+
+em, i {
+font-style: italic;
+}
+
+p {
+margin: 0 0 2em 0;
+}
+
+h1, h2, h3{
+color: #fff;
+font-weight: 800;
+letter-spacing: 0.225em;
+line-height: 1em;
+margin: 0 0 1em 0;
+text-transform: uppercase;
+}
+
+h1 a, h2 a, h3 a{
+    color: inherit;
+    text-decoration: none;
+}
+
+h2 {
+font-size: 1.35em;
+line-height: 1.75em;
+}
+
+@media screen and (max-width: 736px) {
+
+    h2 {
+        font-size: 1.1em;
+        line-height: 1.65em;
+    }
+
+}
+
+h3 {
+font-size: 1.15em;
+line-height: 1.75em;
+}
+
+@media screen and (max-width: 736px) {
+
+    h3 {
+        font-size: 1em;
+        line-height: 1.65em;
+    }
+
+}
+
+
+hr {
+border: 0;
+border-bottom: solid 2px #fff;
+margin: 3em 0;
+}
+
+hr.hover {
+    margin: 4.5em 0;
+}
+
+blockquote {
+border-left: solid 4px #fff;
+font-style: italic;
+margin: 0 0 2em 0;
+padding: 0.5em 0 0.5em 2em;
+}
+
+pre {
+-webkit-overflow-scrolling: touch;
+font-family: "Courier New", monospace;
+font-size: 0.9em;
+margin: 0 0 2em 0;
+}
+
+pre code {
+    display: block;
+    line-height: 1.75em;
+    padding: 1em 1.5em;
+    overflow-x: auto;
+}
+
+header h3 + p {
+font-size: 1.1em;
+}
+
+header.hover {
+margin: 0 0 3.5em 0;
 }
 
 header.hover h2, header.hover h3, header.hover h4, header.hover h5, header.hover h6 {
@@ -104,95 +199,55 @@ header.hover h2, header.hover h3, header.hover h4, header.hover h5, header.hover
     position: relative;
 }
 
-header.hover h2:after, header.hover h3:after, header.hover h4:after, header.hover h5:after, header.hover h6:after {
-    content: '';
-    display: block;
-    height: 10px;
-}
+    header.hover h2:after, header.hover h3:after, header.hover h4:after, header.hover h5:after, header.hover h6:after {
+        content: '';
+        display: block;
+        height: 1px;
+    }
 
-
-
-h1, h2, h3, h4, h5, h6 {
+header.hover p {
     color: #fff;
-    font-weight: 800;
-    letter-spacing: 0.225em;
-    line-height: 1em;
-    margin: 0 0 1em 0;
-    text-transform: uppercase;
+    top: 0;
 }
 
-    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-        color: inherit;
-        text-decoration: none;
+@media screen and (max-width: 736px) {
+
+    header.hover {
+        margin: 0 0 2em 0;
     }
 
-h2 {
-    font-size: 1.35em;
-    line-height: 1.75em;
 }
 
-    @media screen and (max-width: 736px) {
+@media screen and (max-width: 980px) {
 
-        h2 {
-            font-size: 1.1em;
-            line-height: 1.65em;
-        }
-
-    }
-
-h3 {
-    font-size: 1.1em;
-    line-height: 1.65em;
-}
-    @media screen and (max-width: 736px) {
-
-        h3 {
-        font-size: 1.1em;
-        line-height: 1.65em;
-        }
-
-    }
-
-blockquote {
-    border-left: solid 4px #fff;
-    font-style: italic;
-    margin: 0 0 2em 0;
-    padding: 0.5em 0 0.5em 2em;
+header br {
+    display: none;
 }
 
-.align-left {
-    text-align: left;
 }
 
-.align-center {
-    text-align: center;
+/* Form */
+
+form {
+margin: 0 0 2em 0;
 }
 
-.align-right {
-    text-align: right;
+label {
+color: #fff;
+display: block;
+font-size: 1.9em;
+font-weight: 600;
+margin: 0 0 1em 0;
 }
 
-.wrapper {
-    padding: 6em 0 4em 0 ;
+.spotlight {
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
 }
 
-    .wrapper > .inner {
-        width: 69em;
-        margin: 0 auto;
-    }
-
-        @media screen and (max-width: 1280px) {
-
-            .wrapper > .inner {
-                width: 90%;
-            }
-
-        }
-
-        @media screen and (max-width: 980px) {
-
-            .wrapper > .inner {
-                width: 100%;
-            }
-
-        }
