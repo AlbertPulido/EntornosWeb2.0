@@ -181,3 +181,11 @@ header.hover p {
     top: 0;
 }
 
+@media screen and (max-width: 736px) {
+
+    header.hover {
+        margin: 0 0 2em 0;
+    }
+
+}
+
