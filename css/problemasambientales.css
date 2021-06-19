@@ -15,8 +15,8 @@ body{
 #containergeneral{
     margin: 100px auto;
     max-width: 1115px;
-    height: 2510px;
-    background-color: rgb(124, 156, 216, 0.685);
+    height: 2100px;
+    background-color: rgba(124, 156, 216, 0);
     border-radius: 30px;
     
     
@@ -74,7 +74,7 @@ body{
             font-size: 13.4pt;
         }
             .navigation ul li a:hover{
-                background-color: rgba(84, 136, 204, 0.644);
+                background-color: rgba(106, 111, 119, 0.644);
                 border-radius: 10px;
                 color: cornsilk;
                 
@@ -82,7 +82,7 @@ body{
             }
 
 .main{
-    height: 2470px;
+    height: 2170px;
     width: 1055px;
     margin-left: auto;
     margin-right: auto;
@@ -96,7 +96,8 @@ body{
 .main h1,.main h2{
     font-family: 'Trebuchet MS';
     font-size: 18pt;
-    background-image: url(../img/main.jpeg);
+    background-image: url(../img/fondotitleproblemas1.jpg);
+    background-size: 100% 100%;
     color: rgb(0, 0, 0);
     padding:  5px;
     width: 460px;
@@ -123,8 +124,9 @@ body{
     text-align: justify;
     margin: 0px;
     padding: 5px 50px 5px 50px;
-    background-image: url(../img/fondoparr.png);
+    background-image: url(../img/fondotitleproblemas.jpg);
     background-size: 100% 100%;
+    border-radius: 5px;
                     
 }
 

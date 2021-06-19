@@ -13,8 +13,9 @@ body{
 #containergeneral{
     margin: 100px auto;
     max-width: 1115px;
-    height: 2000px;
-    background-color: rgba(162, 0, 255, 0);
+    height: 2400px;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 20px;
 }
 .container{
     width: 90%;
