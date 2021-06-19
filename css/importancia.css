@@ -6,6 +6,8 @@
 body{
     
     background-image: url(../img/arboles.jpg);
+    background-attachment: fixed;
+    background-attachment: "shorthand";
     background-size: 100%;
 }
 #containergeneral{
