@@ -11,7 +11,7 @@ body{
 #containergeneral{
     margin: 100px auto;
     max-width: 1115px;
-    height: 1550px;
+    height: 2000px;
     background-color: rgba(162, 0, 255, 0);
 }
 .container{
@@ -72,21 +72,22 @@ body{
                 color: cornsilk;
             }
 .main{
-    height: 1500px;
+    height: 2000px;
     width: 1055px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(177, 226, 43, 0.685);
+    background-color: rgba(177, 226, 43, 0);
     padding: 30px;
     padding-top: 10px;
     border-radius: 30px;
     
-    background-size: 100%;
+    background-size: 100% 100%;
 }
     .main h1,.main h2{
         font-family: 'Trebuchet MS';
         font-size: 18pt;
         background-image: url(../img/main.jpeg);
+        background-size: 100% 100%;
         color: rgb(0, 0, 0);
         padding:  5px;
         width: 430px;
@@ -107,20 +108,58 @@ body{
         text-align: justify;
         margin: 0px;
         padding: 5px 50px 5px 50px;
-        background-image: url(../img/fondoparr.png);
+        background-image: url(../img/fondotexto.jpg);
         background-size: 100% 100%;
-        
+        border-radius: 10px;
+        opacity: 0.8;
     }
-.main img{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: block;
-    width: 50%;
-    border-radius: 10px;
-    border: 3px dashed white;
-    
-    
-}
+    .main .imgmedioambiente{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+        width: 50%;
+        border-radius: 10px;
+        border: 3px dashed white;
+            
+    }
+    .main .imgorganismosvivos{
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        display: block;
+        float: left;
+        width: 40%;
+        border-radius: 10px;
+        border: 3px dashed white;
+            
+    }
+    .clearfix{
+        clear:both;
+        float: none;
+    }
+    .main .imgaguayaire{
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        display: block;
+        float: left;
+        width: 40%;
+        border-radius: 10px;
+        border: 3px dashed white;
+    }
+    .main .imgtempyacc{
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        display: block;
+        float: left;
+        width: 40%;
+        border-radius: 10px;
+        border: 3px dashed white;
+    }
     

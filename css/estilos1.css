@@ -5,8 +5,8 @@
 }
 body{
     
-    background-image: url(../img/bosque.jpg);
-    background-size: 100%;
+    background-image: url(../img/montañas.jpg);
+    background-size: 100% 100%;
 }
 #containergeneral{
     margin: 0px auto;
@@ -96,7 +96,7 @@ body{
     margin: 0px;
     padding: 10px 50px 10px 50px;
     background-image: url(../img/fondoop.jpeg);
-    opacity:0.75;
+    opacity:0.8;
     border-radius: 20px;
     background-size: 100% 100%;
     

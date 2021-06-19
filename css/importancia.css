@@ -5,14 +5,14 @@
 }
 body{
     
-    background-image: url(../img/bosque.jpg);
+    background-image: url(../img/arboles.jpg);
     background-size: 100%;
 }
 #containergeneral{
     margin: 100px auto;
     max-width: 1115px;
     height: 1550px;
-    background-color: rgb(255, 0, 55);
+    background-color: rgba(255, 0, 55, 0);
 }
 .container{
     width: 90%;
@@ -74,9 +74,33 @@ body{
                 
             }
 .main{
-    height: 500px;
+    height: 700px;
     width: 1115px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(177, 226, 43);
+    background-color: rgba(177, 226, 43, 0);
 }
+    .main h1{
+        font-family: 'Trebuchet MS';
+        font-size: 18pt;
+        background-image: url(../img/fondotitleimport.jpg);
+        background-size: 100% 100%;
+        color: rgb(0, 0, 0);
+        padding:  5px;
+        margin: 5px auto;
+        width: 500px;
+        box-shadow: 2px 2px 2px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .main p{
+        font-size: 13.5pt;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+        text-align: justify;
+        margin: 0px;
+        padding: 5px 50px 5px 50px;
+        background-image: url(../img/fondoparra.jpg);
+        opacity: 0.9;
+        border-radius: 10px;
+        background-size: 100% 115%;
+    }
