@@ -6,13 +6,20 @@
 body{
     
     background-image: url(../img/bosque.jpg);
+    background-attachment: fixed;
+    background-attachment: "shorthand";
     background-size: 100%;
+    
+
 }
 #containergeneral{
     margin: 100px auto;
     max-width: 1115px;
-    height: 1550px;
-    background-color: rgba(162, 0, 255, 0);
+    height: 3800px;
+    background-color: rgb(124, 156, 216, 0.685);
+    border-radius: 30px;
+    
+    
 }
 .container{
     width: 90%;
@@ -67,59 +74,61 @@ body{
             font-size: 13.4pt;
         }
             .navigation ul li a:hover{
-                background-color: rgba(40, 161, 6, 0.644);
+                background-color: rgba(84, 136, 204, 0.644);
                 border-radius: 10px;
                 color: cornsilk;
+                
+                
             }
+
 .main{
-    height: 1500px;
+    height: 3760px;
     width: 1055px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(177, 226, 43, 0.685);
+    background-color: rgba(133, 197, 226, 0.685);
     padding: 30px;
     padding-top: 10px;
     border-radius: 30px;
     background-size: 100%;
 }
-    .main h1,.main h2{
-        font-family: 'Trebuchet MS';
-        font-size: 18pt;
-        background-image: url(../img/main.jpeg);
-        color: rgb(0, 0, 0);
-        padding:  5px;
-        width: 430px;
-        margin-left: 30px;
-        box-shadow: 2px 2px 2px;
-        border-radius: 5px;
-    }
-    .main h1{
-        text-align: center;
-        margin: 0px auto;
-        width: 500px;
-    }
-    
-    
-    .main p{
-        font-size: 13.5pt;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
-        text-align: justify;
-        margin: 0px;
-        padding: 5px 50px 5px 50px;
-        background-image: url(../img/fondoparr.png);
-        background-size: 100% 100%;
-        
-    }
-.main img{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: block;
-    width: 50%;
-    border-radius: 10px;
-    border: 3px dashed white;
-    
-    
+
+.main h1,.main h2{
+    font-family: 'Trebuchet MS';
+    font-size: 18pt;
+    background-image: url(../img/main.jpeg);
+    color: rgb(0, 0, 0);
+    padding:  5px;
+    width: 460px;
+    margin-left: 40px;
+    box-shadow: 2px 2px 2px;
+    border-radius: 5px;
 }
+.main h1{
+    text-align:start;
+    margin: 0px auto;
+    width: 500px;
+}
+
+.main p{
+    font-size: 13.5pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    text-align: justify;
+    margin: 0px;
+    padding: 5px 50px 5px 50px;
     
+    background-size: 100% 100%;
+                    
+}
+
+.main h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18pt;
+    color: rgb(7, 90, 60);
+}
+
+.main a {
+    color: rgb(17, 29, 139);
+    font-family: 'Trebuchet MS';
+    font-size: 18pt;
+}
