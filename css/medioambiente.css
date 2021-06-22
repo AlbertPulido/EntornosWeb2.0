@@ -12,8 +12,8 @@ body{
 }
 #containergeneral{
     margin: 100px auto;
-    max-width: 1115px;
-    height: 2400px;
+    max-width: 1120px;
+    height: 2450px;
     background-color: rgba(0, 0, 0, 0.548);
     border-radius: 20px;
 }
@@ -75,7 +75,7 @@ body{
                 color: cornsilk;
             }
 .main{
-    height: 2000px;
+    height: 2450px;
     width: 1055px;
     margin-left: auto;
     margin-right: auto;
